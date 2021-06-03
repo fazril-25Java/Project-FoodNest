@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="homeStyle.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- header starts  -->
+        <header>
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="logo-div">
+                        <a href="#">
+                            <i class="logo fas fa-utensils fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <nav class="topnav" id="myTopnav">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                    <i class="fa fa-bars fa-2x"></i>
+                                </a>
+                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="FoodMenu.html" target="_blank">Food Menu</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
+                            <li><a href="signIn.html" target="_blank">Sign In</a></li>
+                            <li><a href="Donation.html" target="_blank">Donation</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- header ends  -->
+
+        <div class="title">
+          <h1>Home Page</h1>
+        </div>
+        <body>
+          <div class="about">
+            <h2>Assalamualaikum Everyone!</h2>
+            Welcome to FoodNest. Here, we provide food delivery for all kinds of foods
+            including Malaysian Food and International Food. We have more than 40 branches around Malaysia including Sabah and
+            Sarawak.
+            The money itself will be donated to the needy to achieve
+            the Sustainable Development Goals proposed by the UN.
+            <br><br>
+            <h2>What is Sustainable Development Goals?</h2>
+            The Sustainable Development Goals or Global Goals are a collection of
+             17 interlinked global goals designed to be a "blueprint to achieve a better and more sustainable future for all".
+             Our goal is to stop world hunger which aligned with the 2nd goal of the SDG. Join us by donating our cause for
+             the better future of our generation.
+          </div>
+          <img src="images/food.jpg" alt="">
+          <video style="width:1000px"controls autoplay>
+            <source src="images/cooking.mp4" type="video/mp4">
+            <source src="images/cooking.ogg" type="video/ogg">
+
+          </video>
+          <br>
+          <div class="orgchart">
+            <h2 class="member">Members Of The Project</h2>
+              <img src="images/Slide1.JPG" alt="" style="width:100%;height:600px">
+
+          </div>
+        </body>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>&copy; All right reserved by Food Nest</p>
+                    <P>Desined by - MUHAMMAD FZRIL BIN Azam Busra (1917135)</P>
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-menus">
+                        <a href="#"><i class="icon-style fas fa-arrow-up"></i></a>
+                        <a href="#"><i class="icon-style fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="icon-style  fab fa-youtube"></i></a>
+                        <a href="#"><i class="icon-style  fab fa-twitter"></i></a>
+                        <a href="#"><i class="icon-style  fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+          </p>
+        </footer>
+
+        <!-- footer starts here -->
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>
