@@ -22,8 +22,6 @@ Group 1
 
 'FoodNest Project'
 
-Prepared by Yyy (matricNo) and Aaa (matricNo)
-
 'FoodNest Project' is a website for online food delivery based in Kuala Lumpur, Malaysia.
 
 1.** Project Description**
